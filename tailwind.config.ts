@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: '#3490dc', 
+      },
+      fontFamily: {
+        sans: ['Satisfy', 'cursive'], // Add the Satisfy cursive font
       },
     },
   },
